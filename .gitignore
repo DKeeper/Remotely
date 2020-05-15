@@ -1,0 +1,8 @@
+data/.idea
+data/runtime/*
+data/vendor/*
+data/web/assets/*
+site/.idea
+site/runtime/*
+site/vendor/*
+site/web/assets/*
