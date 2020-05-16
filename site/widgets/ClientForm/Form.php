@@ -22,7 +22,7 @@ class Form extends \yii\base\Widget
     /**
      * @var string
      */
-    public $ajaxUrl = 'http://data.remotely.loc/services';
+    public $ajaxUrl = '';
 
     protected $methods = [
         'insert',
