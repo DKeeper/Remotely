@@ -55,6 +55,12 @@ $config = [
         ],
         */
     ],
+    'modules' => [
+        'request' => [
+            'class' => \app\modules\request\RequestModule::class,
+            'apiUri' => 'http://data.remotely.loc/services',
+        ],
+    ],
     'params' => $params,
 ];
 
