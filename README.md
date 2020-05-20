@@ -66,7 +66,10 @@ URL_TO_ENDPOINT - должен быть настроен на контролле
 -------------------
 
 Перейти по адресу
-<http://client_url/index.php?r=site/demo> где должна быть доступна форма для отправки запросов к API
+<http://client_url/index.php?r=site/demo> (отправка запросов через javascript клиент)
+или
+<http://client_url/index.php?r=request> (отправка запросов из backend'а сайта)
+где должна быть доступна форма для отправки запросов к API
 
 Поля форм:
 - Select method (Требуемый метод для операции с данными - insert, update, list)
